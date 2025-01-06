@@ -20,7 +20,7 @@ out = cv2.VideoWriter(output_file, fourcc, fps, frame_size)
 yolo_model = YOLO('/Users/raghuveer/Desktop/New Folder With Items 5/Gun Detection Project/best.pt')
 
 
-rf = Roboflow(api_key="zMoYjU7pexfy7IOZsheB") 
+rf = Roboflow(api_key="######")  #I commented out my API KEY, replace with your own API KEY
 roboflow_project = rf.workspace("security-training").project("police-jq67t")
 
 
